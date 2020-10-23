@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab1"
+        android:icon="@drawable/d1"
+        android:title="토스트"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/tab2"
+        android:icon="@drawable/d2"
+        android:title="다이얼로그"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/tab3"
+        android:icon="@drawable/d3"
+        android:title="프로그레스"
+        app:showAsAction="ifRoom|withText" />
+</menu>
